@@ -36,6 +36,7 @@ variable "image" {
 provider "google" {
   project     = "${var.gcp_project}"
   region      = "${var.gcp_region}"
+  credentials = "${var.gcp_credentials}"
 }
 
 resource "google_compute_instance" "demo" {
