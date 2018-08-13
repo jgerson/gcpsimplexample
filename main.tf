@@ -30,7 +30,7 @@ variable "instance_name" {
 
 variable "image" {
   description = "image to build the instance from"
-  default = "debian-cloud/debian-8"
+  default = "centos-6-v20180716"
 }
 
 provider "google" {
