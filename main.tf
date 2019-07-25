@@ -19,7 +19,7 @@ variable "gcp_zone" {
 }
 
 variable "machine_type" {
-  description = "GCP machine type"
+  description = "The GCP machine type"
   default = "n1-standard-1"
 }
 
