@@ -29,7 +29,7 @@ variable "instance_name" {
 }
 
 variable "image" {
-  description = "image to build instance from"
+  description = "image to build instance the from"
   default = "centos-6-v20180716"
 }
 
