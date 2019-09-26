@@ -3,7 +3,7 @@ terraform {
 }
 
 variable "gcp_credentials" {
-  description = "GCP credentials needed by the google provider"
+  description = "GCP credentials needed by google provider"
 }
 
 variable "gcp_project" {
