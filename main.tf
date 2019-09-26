@@ -7,7 +7,7 @@ variable "gcp_credentials" {
 }
 
 variable "gcp_project" {
-  description = "GCP project name"
+  description = "GCP project names"
 }
 
 variable "gcp_region" {
